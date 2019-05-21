@@ -1,5 +1,9 @@
+html, body, .App, .App>div {
+  height: 100%
+}
+
 .App {
-  text-align: center;
+  text-align: center;  
 }
 
 .App-logo {
@@ -30,4 +34,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1 {
+  text-align: center;
+  text-shadow: 3px 2px 8px black;
+}
+
+form {
+  padding: 0 40px;
+  text-align: center;
+}
+
+form input {
+  display: block;
+  width: 50%;
+  font-size: 20px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+}
+
+form input.error {
+  border-color: red;
+}
+
+form span.error {
+  color: red;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+form button {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  appearance: none;
+  border-radius: 5px;
+  background-color: #84c00c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background-color: #669509;
+}
+
+form button:disabled {
+  background-color: #dbf99f;
+  color: #333;
 }
