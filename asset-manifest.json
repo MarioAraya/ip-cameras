@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ip-cameras/static/css/main.a8ef3f19.chunk.css",
+    "main.js": "/ip-cameras/static/js/main.1cb05e33.chunk.js",
+    "main.js.map": "/ip-cameras/static/js/main.1cb05e33.chunk.js.map",
+    "runtime~main.js": "/ip-cameras/static/js/runtime~main.7a4ca53b.js",
+    "runtime~main.js.map": "/ip-cameras/static/js/runtime~main.7a4ca53b.js.map",
+    "static/js/2.c9ee9d95.chunk.js": "/ip-cameras/static/js/2.c9ee9d95.chunk.js",
+    "static/js/2.c9ee9d95.chunk.js.map": "/ip-cameras/static/js/2.c9ee9d95.chunk.js.map",
+    "index.html": "/ip-cameras/index.html",
+    "precache-manifest.af8043d369d86df57c667f0dafb9c822.js": "/ip-cameras/precache-manifest.af8043d369d86df57c667f0dafb9c822.js",
+    "service-worker.js": "/ip-cameras/service-worker.js",
+    "static/css/main.a8ef3f19.chunk.css.map": "/ip-cameras/static/css/main.a8ef3f19.chunk.css.map"
+  }
+}
