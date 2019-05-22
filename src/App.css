@@ -1,5 +1,6 @@
 html, body, .App, .App>div {
-  height: 100%
+  height: 100vh;
+  background-color: #ddd;
 }
 
 .App {
@@ -69,7 +70,7 @@ form span.error {
   display: none;
 }
 
-form button {
+form button, .btnVolver {
   margin: 0 auto;
   display: block;
   width: 50%;
@@ -81,6 +82,13 @@ form button {
   font-size: 16px;
   height: 40px;
   margin-top: 30px;
+}
+
+.btnVolver {
+  position: absolute;
+  top: 0;
+  width: 90px;
+  height: 27px;
 }
 
 form button:hover {
