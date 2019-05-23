@@ -25,15 +25,19 @@ function AppCamaras() {
     setIndex(1);
     setCameraUrl(urlCam1)
   }
+  function onBtnVolverClk() {
+    setIndex(0);
+    setCameraUrl('')
+  }
 
   return (
-    <SwipeableViews index={index} onChangeIndex={() => setIndex}> 
+    <SwipeableViews disabled="true" index={index} onChangeIndex={() => setIndex}> 
       <div style={Object.assign({}, styles.slide, styles.slide1)}>
         <h1>Iniciar sesión</h1>
         <LoginForm onclick={(url) => setCamera(url)} />
       </div>
       <div style={Object.assign({}, styles.slide, styles.slide3)}>
-        <VideoPlayer cameraUrl={cameraUrl} onback={() => setIndex(0)} />
+        <VideoPlayer cameraUrl={cameraUrl} onback={() => onBtnVolverClk()}/>
       </div>
     </SwipeableViews>
   );

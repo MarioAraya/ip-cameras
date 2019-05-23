@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 function validate(email, password) {
-    // true means invalid, so our conditions got reversed
     return {
         email: email.length === 0, //true if email is empty
         password: password.length === 0, //true if password is empty
